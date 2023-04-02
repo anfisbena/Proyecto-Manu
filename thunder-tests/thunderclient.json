@@ -1,0 +1,97 @@
+[
+  {
+    "_id": "0e0d1e00-a153-444b-afb6-4ecaceb10762",
+    "colId": "c0920343-2583-462b-aa97-83ae9e9048d9",
+    "containerId": "",
+    "name": "postProduct",
+    "url": "http://localhost:8080/",
+    "method": "POST",
+    "sortNum": 10000,
+    "created": "2023-04-02T03:05:54.267Z",
+    "modified": "2023-04-02T03:05:54.267Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "title",
+          "value": "Zapatos Rojos"
+        },
+        {
+          "name": "description",
+          "value": "Lorem Ipsum"
+        },
+        {
+          "name": "price",
+          "value": "420000"
+        },
+        {
+          "name": "code",
+          "value": "ZA-01",
+          "isDisabled": true
+        },
+        {
+          "name": "stock",
+          "value": "69"
+        }
+      ],
+      "files": [
+        {
+          "name": "thumbnails",
+          "value": "..\\..\\..\\..\\Downloads\\nike1.jpg"
+        },
+        {
+          "name": "thumbnails",
+          "value": "..\\..\\..\\..\\Downloads\\nike2.jpg"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "fe24ebe2-a785-494d-b6c1-a518a8afab2e",
+    "colId": "c0920343-2583-462b-aa97-83ae9e9048d9",
+    "containerId": "",
+    "name": "getProducts",
+    "url": "http://localhost:8080/",
+    "method": "GET",
+    "sortNum": 20000,
+    "created": "2023-04-02T03:06:14.029Z",
+    "modified": "2023-04-02T03:06:14.030Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "title",
+          "value": "Zapatos Rojos",
+          "isDisabled": true
+        },
+        {
+          "name": "description",
+          "value": "Lorem Ipsum",
+          "isDisabled": true
+        },
+        {
+          "name": "price",
+          "value": "420000",
+          "isDisabled": true
+        },
+        {
+          "name": "code",
+          "value": "ZA-01"
+        },
+        {
+          "name": "stock",
+          "value": "69",
+          "isDisabled": true
+        }
+      ]
+    },
+    "tests": []
+  }
+]

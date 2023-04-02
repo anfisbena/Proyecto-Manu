@@ -1,0 +1,97 @@
+[
+  {
+    "_id": "e8b8ca3b-a8ab-4eb1-8ca0-49cd453a0de2",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:8080/",
+    "url": "http://localhost:8080/",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2023-04-01T23:44:19.281Z",
+    "modified": "2023-04-02T03:04:52.753Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "title",
+          "value": "Zapatos Rojos"
+        },
+        {
+          "name": "description",
+          "value": "Lorem Ipsum"
+        },
+        {
+          "name": "price",
+          "value": "420000"
+        },
+        {
+          "name": "code",
+          "value": "ZA-01",
+          "isDisabled": true
+        },
+        {
+          "name": "stock",
+          "value": "69"
+        }
+      ],
+      "files": [
+        {
+          "name": "thumbnails",
+          "value": "..\\..\\..\\..\\Downloads\\nike1.jpg"
+        },
+        {
+          "name": "thumbnails",
+          "value": "..\\..\\..\\..\\Downloads\\nike2.jpg"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "67636cd2-38ae-4f69-8166-fb9f9a8abff9",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:8080/ Copy",
+    "url": "http://localhost:8080/",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-04-01T23:44:19.281Z",
+    "modified": "2023-04-02T02:49:50.252Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "title",
+          "value": "Zapatos Rojos",
+          "isDisabled": true
+        },
+        {
+          "name": "description",
+          "value": "Lorem Ipsum",
+          "isDisabled": true
+        },
+        {
+          "name": "price",
+          "value": "420000",
+          "isDisabled": true
+        },
+        {
+          "name": "code",
+          "value": "ZA-01"
+        },
+        {
+          "name": "stock",
+          "value": "69",
+          "isDisabled": true
+        }
+      ]
+    },
+    "tests": []
+  }
+]
