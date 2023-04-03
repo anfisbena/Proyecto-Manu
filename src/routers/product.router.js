@@ -11,6 +11,9 @@ router.get ('/',async (req,res)=>{
   try{
     let response=await GetProducts();
     if(!response){return res.status(400).send({result:'error',payload:'no se pudieron obtener los productos'})}
+    res.render('home',{
+      title:'Home',
+      products:response})
     return res.status(200).send({result:'sucess',payload:response})
   }
   catch(err){console.log(err)}

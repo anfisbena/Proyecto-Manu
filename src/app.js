@@ -1,6 +1,7 @@
 import express from 'express';
 import dotenv from 'dotenv';
 import mongoose from 'mongoose';
+import {engine} from 'express-handlebars';
 import productRouter from './routers/product.router.js'; 
 import __dirName from './utils.js';
 
@@ -14,6 +15,11 @@ const httpserver=app.listen(PUERTO,()=>console.log(`Servidor nuevo escuchando en
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(express.static(`${__dirName}/public`));
+
+app.engine('handlebars',engine())
+app.set('views',`${__dirName}/views`)
+app.set('view engine','handlebars')
+
 
 app.use('/',productRouter)
 
